@@ -14,7 +14,7 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QComboBox" name="comboBox">
+   <widget class="QComboBox" name="cbFirst">
     <property name="geometry">
      <rect>
       <x>110</x>
@@ -23,9 +23,37 @@
       <height>22</height>
      </rect>
     </property>
+    <property name="currentIndex">
+     <number>-1</number>
+    </property>
     <item>
      <property name="text">
       <string>QtComboBox</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>w</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>e</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>dasf</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>dar</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>wdf</string>
      </property>
     </item>
    </widget>
